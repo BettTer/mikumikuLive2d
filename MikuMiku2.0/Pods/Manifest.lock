@@ -1,0 +1,100 @@
+PODS:
+  - AudioKit (4.6.4):
+    - AudioKit/Core (= 4.6.4)
+    - AudioKit/UI (= 4.6.4)
+  - AudioKit/Core (4.6.4)
+  - AudioKit/UI (4.6.4):
+    - AudioKit/Core
+  - BMPlayer (1.0.1):
+    - BMPlayer/Full (= 1.0.1)
+  - BMPlayer/Core (1.0.1)
+  - BMPlayer/Full (1.0.1):
+    - BMPlayer/Core
+    - NVActivityIndicatorView (~> 4.0.0)
+    - SnapKit (~> 4.0.0)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - CollectionKit (2.3.0):
+    - CollectionKit/Core (= 2.3.0)
+  - CollectionKit/Core (2.3.0)
+  - HandyJSON (4.2.1)
+  - Hero (1.4.0)
+  - IQKeyboardManager (6.2.1)
+  - KYCircularProgress (1.2.1)
+  - NVActivityIndicatorView (4.0.1):
+    - NVActivityIndicatorView/Presenter (= 4.0.1)
+  - NVActivityIndicatorView/Presenter (4.0.1)
+  - RSKPlaceholderTextView (4.0.0)
+  - SCLAlertView (0.8)
+  - SnapKit (4.0.1)
+  - SVProgressHUD (2.2.5)
+  - SwiftyUserDefaults (3.0.1)
+  - SwiftyXMLParser (4.3.0)
+
+DEPENDENCIES:
+  - AudioKit (~> 4.0)
+  - AudioKit/UI
+  - BMPlayer (~> 1.0.0)
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - CollectionKit
+  - HandyJSON (~> 4.2.0)
+  - Hero
+  - IQKeyboardManager
+  - KYCircularProgress
+  - RSKPlaceholderTextView
+  - SCLAlertView
+  - SVProgressHUD
+  - SwiftyUserDefaults
+  - SwiftyXMLParser (from `https://github.com/yahoojapan/SwiftyXMLParser.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AudioKit
+    - BMPlayer
+    - CollectionKit
+    - HandyJSON
+    - Hero
+    - IQKeyboardManager
+    - KYCircularProgress
+    - NVActivityIndicatorView
+    - RSKPlaceholderTextView
+    - SCLAlertView
+    - SnapKit
+    - SVProgressHUD
+    - SwiftyUserDefaults
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+  SwiftyXMLParser:
+    :git: https://github.com/yahoojapan/SwiftyXMLParser.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+  SwiftyXMLParser:
+    :commit: 9f64c4acce90d897992be200d91af1d56bd20d71
+    :git: https://github.com/yahoojapan/SwiftyXMLParser.git
+
+SPEC CHECKSUMS:
+  AudioKit: d8dc46ec1ce897e3b14a3747a13c951ef25bc3cb
+  BMPlayer: 44eebf06eb01450dd14ea74b27d07c5222f0eed1
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  CollectionKit: 6910479bf865bfe49040e73322ce4b8fe8991231
+  HandyJSON: d0c5fc80204f29056d59d3e5c4587fa0b16b60a8
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
+  IQKeyboardManager: 964638372b4a61892cc74fdfa6fd26de8c9464a2
+  KYCircularProgress: caa1a8d1defa2acf05d2f84ea681467fbdb6d353
+  NVActivityIndicatorView: 77ed6d7b571643e24899e7858bf9ae2ee4c21f31
+  RSKPlaceholderTextView: 15f1dc1883e103ea605874b863f19ff6b08496d5
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyUserDefaults: 3d273b1739b68ada3145dc754a70ec775bc5c8be
+  SwiftyXMLParser: b2e0b0dd0e0fb1ac39869dd4a0c6181847af2945
+
+PODFILE CHECKSUM: 78ea92dafa315f840649598e6fd5d18da9831f21
+
+COCOAPODS: 1.5.3

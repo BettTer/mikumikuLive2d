@@ -1,0 +1,35 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '11.0'
+use_frameworks!
+
+target 'MikuMiku2.0' do
+# 界面
+    pod 'ChameleonFramework/Swift',
+        :git => 'https://github.com/ViccAlexander/Chameleon.git'    # 颜色扩展
+        
+    pod 'Hero'                                                      # 控制器跳转动画
+    pod 'CollectionKit'                                             # Reimagining UICollectionView
+    pod 'RSKPlaceholderTextView'                                    # TextView
+    pod 'IQKeyboardManager'                                         # 修复键盘遮挡
+    
+# 提示
+    pod 'SVProgressHUD'                                             # 加载中菊花
+    pod 'SCLAlertView'                                              # debug专用
+    pod 'KYCircularProgress'                                        # 进度条
+
+# 时间处理
+    
+# 数据处理
+    pod 'SwiftyXMLParser',
+        :git => 'https://github.com/yahoojapan/SwiftyXMLParser.git' # XML文件读取
+    pod 'SwiftyUserDefaults'                                        # UserDefaults
+    pod 'BMPlayer', '~> 1.0.0'                                      # 视频播放
+    pod 'HandyJSON', '~> 4.2.0'                                     # JSON
+#    pod 'Alamofire', '~> 5.0.0-beta.3'                              # 请求
+
+
+# 音频处理
+    pod 'AudioKit', '~> 4.0'
+    pod 'AudioKit/UI'
+
+end

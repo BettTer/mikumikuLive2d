@@ -1,0 +1,6 @@
+framework module Pods_MikuMiku2_0 {
+  umbrella header "Pods-MikuMiku2.0-umbrella.h"
+
+  export *
+  module * { export * }
+}
