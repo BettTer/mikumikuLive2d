@@ -44,7 +44,7 @@ MikuMiku2.0/
 
 ## Build
 
-Xcode, iOS 12.0+, Swift 5, CocoaPods. Run `pod install` in `MikuMiku2.0/` and open `MikuMiku2.0.xcworkspace`. The Live2D runtime and models come in through the pods and are not checked in because of their size. AudioKit is added to the project as a Swift package (`https://github.com/AudioKit/AudioKit`).
+Xcode, iOS 12.0+, Swift 5, CocoaPods. Run `pod install` in `MikuMiku2.0/` and open `MikuMiku2.0.xcworkspace`.
 
 ---
 
@@ -92,4 +92,4 @@ MikuMiku2.0/
 
 ## 构建
 
-Xcode，iOS 12.0+，Swift 5，CocoaPods。在 `MikuMiku2.0/` 下执行 `pod install`，打开 `MikuMiku2.0.xcworkspace`。Live2D 运行时和模型通过 pod 装进来，因为体积太大没有提交到仓库。AudioKit 以 Swift Package 的方式加在工程里（`https://github.com/AudioKit/AudioKit`）。
+Xcode，iOS 12.0+，Swift 5，CocoaPods。在 `MikuMiku2.0/` 下执行 `pod install`，打开 `MikuMiku2.0.xcworkspace`。
